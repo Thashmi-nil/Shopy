@@ -1,7 +1,7 @@
 .CompactCard {
     display: flex;
     flex: 1;
-    height: 7rem !important;
+    height: 5rem !important;
     border-radius: 0.7rem;
     color: white;
     padding: 2rem;
@@ -72,4 +72,13 @@
 
 .chartContainer {
     width: 70%;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .ExpandedCard {
+        top: 2rem;
+        height: 75vh;
+        left: 6rem;
+    }
 }
